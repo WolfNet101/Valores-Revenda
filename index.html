@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wolf revendas</title>
+    <link rel="shortcut icon" href="image-wolf.jpeg" type="image/x-icon">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        html,
+        body {
+            height: 100vh;
+            width: 100vw;
+            background-color: gray;
+            ;
+        }
+
+        header {
+            height: 20vh;
+            background-image: linear-gradient(to right, blue , black, blue)
+        }
+
+        header h1 {
+            padding: 30px;
+            text-align: center;
+            color: white;
+            text-shadow: 5px 5px black;
+        }
+
+        main h1,h2 {
+            position: relative;
+            text-align: center;
+            padding: 20px;
+        }
+
+        main p {
+            color: white;
+            text-shadow: 2px 2px black;
+            margin: 20px;
+            text-align: center;
+        }
+
+        main  img {
+            display: block;
+            margin: 0 auto;
+            min-width: 200px;
+            width: 20%;
+            bottom: 400px;
+            border: 2px solid white;
+            
+        }
+
+        #img01 {
+            position: relative;
+            width: 30vw;
+            height: 40vh;
+            top: 15%;
+        }
+
+        main h1, h2 {
+            padding: 20px;
+            font-size: 3em;
+            color: yellow;
+            text-shadow: 2px 3px red;
+        }
+
+        table {
+            position: relative;
+            height: 50vh;
+            width: 90vw;
+            border-collapse: collapse;
+            left: 50%;
+            top: 30%;
+            transform: translate(-50%, -50%);
+        }
+
+        tr,
+        td,
+        th {
+            border: 2px solid black;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        th {
+            background-color: black;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: gray;
+        }
+
+        tr:nth-child(odd) {
+            background-color: yellow;
+        }
+
+        .uso {
+            height: 100vh;
+            background-image: linear-gradient(to right, black, gray);
+        }
+
+        .mensalista {
+            height: 100vh;
+            background-image: linear-gradient(to left, black, rgb(158, 15, 15));
+        }
+
+        .trimestral {
+            background-image: linear-gradient(to left, red, yellow);
+            height: 100vh;
+        }
+
+        .contato img {
+            padding: 15px;
+            margin-bottom: 20px;
+            width: 200px;
+            height: 200px;
+            border-radius: 20px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>WOlf Net revenda</h1>
+    </header>
+    <main>
+        
+
+        <section class="uso">
+            <h2>revenda Logins</h2>
+            <p>Venha lucrar vendendo logins, compre um pacote revenda e lucre por cada login vendido</p>
+            <img id="img01" src="image-wolf.jpeg" alt="Wolf">
+        </section>
+
+        <section class="mensalista">
+            <h2>Painel Mensalista</h2>
+            <p>painel Mensalista paga a cada 30 dias.</p>
+
+            <table>
+                <thead>
+                    <th>Quantidade de Logins</th>
+                    <th>Valor</th>
+                    <th>Validade</th>
+                </thead>
+
+                <tbody>
+                    <td>20 logins</td>
+                    <td>R$ 36</td>
+                    <td>30 dias</td>
+
+                    <tr>
+                        <td>30 logins</td>
+                        <td>R$ 50</td>
+                        <td>30 dias</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+        <section class="trimestral">
+            <h2>Painel 3 meses (trimestral)</h2>
+            <p>Painel pode ser usado os logins em até 3 meses</p>
+
+            <table>
+                <thead>
+                    <th>Quantidade de Logins</th>
+                    <th>Valor</th>
+                    <th>Validade</th>
+                </thead>
+
+                <tbody>
+                    <td>10 logins</td>
+                    <td>R$ 50</td>
+                    <td>90 dias</td>
+
+                    <tr>
+                        <td>20 logins</td>
+                        <td>R$ 70</td>
+                        <td>90 dias</td>
+                    </tr>
+
+                    <tr>
+                        <td>30 logins</td>
+                        <td>R$ 80</td>
+                        <td>90 dias</td>
+                    </tr>
+
+                    <tr>
+                        <td>40 logins</td>
+                        <td>R$ 90</td>
+                        <td>90 dias</td>
+                    </tr>
+
+                    <tr>
+                        <td>50 logins</td>
+                        <td>R$ 100</td>
+                        <td>90 dias</td>
+                    </tr>
+
+                    <tr>
+                        <td>100 logins</td>
+                        <td>R$ 150</td>
+                        <td>90 dias</td>
+                    </tr>
+
+                    <tr>
+                        <td>200 logins logins</td>
+                        <td>R$ 180</td>
+                        <td>90 dias</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+        </section>
+        <section class="contato">
+            <h2>contato</h2>
+            <p>chame a gente no whatsapp</p>
+
+            <div id="chamada">
+                <p>chame a gente no whatsapp 12997832692 ou clique na foto abaixo. </p>
+                <a href="https://wa.me/5512997832692"><img src="zap.png" alt="zap"></a>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
